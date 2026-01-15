@@ -18,6 +18,16 @@ hr{
     background-color: rgb(233, 233, 235);
     border: 8px solid black;
     border-radius: 5px;
+
+   
+
+}
+
+@media screen and (max-width: 297px) {
+    #outline {
+        height: 100dvh;
+        width: 100dvw;
+    }
 }
 
 #display{
