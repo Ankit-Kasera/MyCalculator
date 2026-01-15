@@ -37,7 +37,7 @@ function processCalculation(event) {
     else if(targetClass === 'result') {
         try {
             equation = eval(equation.trim())
-            answerBox.textContent = equation;
+            answerBox.textContent = '=' + equation;
         }
         catch(err) {
             console.log(err)
@@ -50,4 +50,5 @@ function processCalculation(event) {
 function isOperator (equation = '') {
     const lastChar = equation.toString().charAt(equation.length - 1)
     return ['+', '-', '*', '/', '%'].includes(lastChar)
+
 }
