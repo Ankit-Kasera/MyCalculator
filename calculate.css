@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#outline{
+    height: 400px;
+    width: 250px;
+    background-color: rgb(233, 233, 235);
+    border: 8px solid black;
+    border-radius: 5px;
+}
+
+#display{
+    margin-top: 10px;
+    height: 125px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: cyan;
+    /* font-family: "Silkscreen", sans-serif; */
+    font-family: "Michroma", sans-serif;
+
+}
+
+#question{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700
+}
+#answer{
+    margin-top:15px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+input{
+    height: 40px;
+    width: 55px;
+    margin-bottom: 5px;
+    border: 3px outset;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.left{
+    margin-left: 9px;
+}
+.right{
+    margin-right: 9px;
+}
+
+
+#equal{
+    width: 114px;
+}
+
+.opr{
+    background-color: rgb(0, 0, 120);
+}
+.opr:hover{
+    background-color: rgb(0, 0, 75);
+}
+
+.operator, .back{
+    background-color: rgb(0, 0, 0);
+}
+.operator:hover, .back:hover{
+    background-color: rgb(30, 30, 30);
+}
+
+.reset, .result{
+    background-color: rgb(150, 0, 0);
+}
+.reset:hover, .result:hover{
+    background-color: rgb(120, 0, 0);
+}
